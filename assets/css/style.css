@@ -1,0 +1,417 @@
+.main {
+    position: sticky;
+    top: 0;
+    z-index: 9;
+}
+.header-one {
+    background-image: url("https://lirp.cdn-website.com/2d8a0624/dms3rep/multi/opt/header_line_img_background-2880w.png");
+    background-size: cover;
+    background-position: 44% 40%;
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    min-height: 209px;
+    max-height: 100%;
+}
+a {
+    text-decoration: none;
+}
+.header-two {
+    background-image: url("https://lirp.cdn-website.com/2d8a0624/dms3rep/multi/opt/header_line_-2880w.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+}
+.mini-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff; 
+}
+.first-text {
+    display: flex;
+    margin-left: 45px;
+}
+.second-text {
+    display: flex;
+    margin-right: 45px;
+}
+.first-text a h2, .second-text a h2 {
+    color: #fff;
+    margin: 0px 22px;
+    position: relative;
+}
+.first-text a h2::before, .second-text a h2::before {
+    position: absolute;
+    content: "";
+    background-color: #fff;
+    width: 0%;
+    height: 4px;
+    top: 51px;
+    transition: 0.7s;
+}
+.first-text a h2:hover::before, .second-text a h2:hover::before {
+    width: 100%;
+}
+.center-img img {
+    width: 400px;
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 75px;
+}
+.bar {
+    display: none;
+}
+.bar i {
+    color: #cfa97b;
+    font-size: 30px;
+}
+.toggel-bg {
+    display: none;
+}
+
+/* -------------header----------------- */
+.videoplay {
+    position: relative;
+    z-index: -1;
+    overflow: hidden;
+    height: 727px;
+}
+.videoplay video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.hall-img {
+    width: 44%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 60px 20px 60px 20px;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 13%;
+}
+.hall-img img {
+    width: 70.29%;
+    height: 313px;
+    max-width: 100%;
+}
+.hall-img h1 {
+    font-size: 45px;
+    padding: 20px 0px;
+}
+
+
+
+/* --------------bg-video------------------ */
+#first {
+    background-image: url("https://lirp.cdn-website.com/2d8a0624/dms3rep/multi/opt/event+1-2880w.webp");
+    width: 100%;
+    padding: 60px 0px;
+    margin-top: -5px;
+}
+.hedding h2 {
+    text-align: center;
+    font-size: 70px;
+    color: #fff;
+    padding-bottom: 40px;
+    font-weight: 400;
+}
+.car-img {
+    background-image: url("https://lirp.cdn-website.com/2d8a0624/dms3rep/multi/opt/event-2-image-copy-7bee3e6d-2880w.webp");
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+.car-text {
+    color: #fff;
+}
+.car-text h1 {
+    font-size: 50px;
+}
+.car-text a {
+    background: linear-gradient(90deg,
+        rgba(103,68,43,1) 0%,
+        rgba(165,132,93,1) 28%,
+        rgba(209,178,131,1) 50%,
+        rgba(156,124,87,1) 73%,
+        rgba(99,70,43,1) 100%) !important;
+    padding: 6px 70px;
+    font-size: 30px;
+    color: #000;
+    font-weight: 500;
+    margin-top: 44px;
+    display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.96) 0px 0px 11px 0px;
+}
+
+
+/* ------------first-------------- */
+
+ .swiper {
+      width: 100%;
+      height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slide-img img {
+    width: 100%;
+}
+.boost {
+    background-image: url("https://lirp.cdn-website.com/2d8a0624/dms3rep/multi/opt/event-4-image-copy-2880w.webp");
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+
+.milktri {
+    background-image: url("https://lirp.cdn-website.com/2d8a0624/dms3rep/multi/opt/event-1-image-copy-def0739b-2880w.webp");
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+#Testimonials{
+    background-image: url("https://lirp.cdn-website.com/2d8a0624/dms3rep/multi/opt/Testimonials+Background+copy-2880w.webp");
+    width: 100%;
+    padding: 60px 0px;
+    margin-top: -5px;
+}
+.bt-center {
+    text-align: center;
+}
+.btns a {
+    background: linear-gradient(90deg,
+        rgba(103,68,43,1) 0%,
+        rgba(165,132,93,1) 28%,
+        rgba(209,178,131,1) 50%,
+        rgba(156,124,87,1) 73%,
+        rgba(99,70,43,1) 100%) !important;
+    padding: 6px 70px;
+    font-size: 30px;
+    color: #000;
+    font-weight: 500;
+    margin: 22px 0px;
+    width: 91%;
+    display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.96) 0px 0px 11px 0px;
+}
+.gallery {
+    width: 100%;
+    display: flex;
+}
+.gallery img {
+    width: 33.33%;
+}
+#display-btn {
+    background-image: url("https://lirp.cdn-website.com/2d8a0624/dms3rep/multi/opt/mens+black+stone+copy-2880w.webp");
+     width: 100%;
+    padding: 60px 0px;
+    margin-top: -5px;
+}
+.footer-text {
+    color: #fff;
+    position: absolute;
+    top: 20%;
+    width: 55%;
+}
+.text-flex {
+    display: flex;
+    align-items: center;
+}
+.text-flex h1 {
+    font-size: 62px;
+    font-weight: 400;
+}
+.text-flex h3 {
+    font-size: 31px;
+    margin-left: 20px;
+    font-weight: 400;
+}
+.full-text h4 {
+    font-weight: 100;
+    font-size: 21px;
+}
+.footer-img {
+    position: absolute;
+    top: 20%;
+}
+.footer-img img {
+    width: 100%;
+    max-width: 340px;
+}
+.videoplay-two {
+    position: relative;
+    z-index: -1;
+    overflow: hidden;
+    height: 727px;
+}
+.videoplay-two video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+
+
+@media screen and (max-width:767px) {
+    .header-one, .header-two {
+        display: none;
+    }
+    .hide-hdr {
+        background-image: url("https://irp.cdn-website.com/2d8a0624/dms3rep/multi/Valhalla+Home+Page+copy.webp?dm-skip-opt=true");
+        min-height: 120px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .bar {
+        display: block;
+    }
+    .toggel-bg {
+        background-color: black;
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: block;
+    }
+    .toggel-bg {
+        background-image: url("https://lirp.cdn-website.com/2d8a0624/dms3rep/multi/opt/Valhalla+Contact+Us+Background+copy-2880w.webp");
+        position: fixed;
+        right: 0;
+        top: 0;
+        display: block;
+        width: 81%;
+        height: 100vh;
+        overflow-y: auto;
+        transform: translateX(100%);
+        transition: 0.9s;
+    }
+    .show {
+        transform: translateX(0%);
+    }
+    .toggel-bg a h2 {
+        color: #fff;
+        padding: 19px 38px;
+        position: relative;
+    }
+    .toggel-bg .demo {
+        position: absolute;
+        top: 88px;
+    }
+    .toggel-bg i {
+        color: #fff;
+        font-size: 50px;
+        float: right;
+        position: absolute;
+        right: 0;
+    }
+    section#bg-video {
+        margin-top: -39px;
+    }
+    
+    .toggel-bg a h2::before {
+        position: absolute;
+        content: "";
+        background-color: #fff;
+        width: 0%;
+        height: 4px;
+        top: 51px;
+        transition: 0.7s;
+    }
+    .toggel-bg a h2:hover::before {
+        width: 59%;
+    }
+
+   .videoplay {
+        position: relative;
+        z-index: -1;
+        overflow: hidden;
+        height: 509px;
+    }
+   .hall-img {
+        width: 94%;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 60px 20px 60px 20px;
+        color: #fff;
+        text-align: center;
+        position: absolute;
+        top: 13%;
+    }
+    .hall-img img {
+        height: 188px;
+        width: 242px;
+    }
+    .hall-img h1 {
+        font-size: 20px;
+        padding: 0px 0px;
+    }
+    .hedding h2 {
+        font-size: 32px;
+    }
+    .car-text h1 {
+        font-size: 30px;
+    }
+    .car-text a {
+        font-size: 18px;
+    }
+    .btns a {
+        font-size: 18px;
+        margin: 10px 0px;
+        padding: 6px 20px;
+        color: #000;
+        font-weight: 500;
+        width: 91%;
+    }
+    .footer-text {
+        color: #fff;
+        position: absolute;
+        top: 57%;
+        width: 100%;
+        padding: 0px 10px;
+        text-align: center;
+        left: 0;
+    }
+    .footer-img {
+        position: absolute;
+        top: 20%;
+        left: 20%;
+    }
+    .text-flex {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .text-flex h1 {
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .text-flex h3 {
+        font-size: 20px;
+        margin-left: 10px;
+        font-weight: 400;
+    }
+ 
+    
+}

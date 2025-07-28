@@ -172,6 +172,7 @@ a {
 }
 .slide-img img {
     width: 100%;
+    height: 350px;
 }
 .boost {
     background-image: url("https://lirp.cdn-website.com/2d8a0624/dms3rep/multi/opt/event-4-image-copy-2880w.webp");
@@ -179,7 +180,23 @@ a {
     height: 500px;
     background-size: cover;
 }
-
+.swiper-button-prev:after, .swiper-button-next:after {
+    display: none;
+} 
+.swiper-button-prev i, .swiper-button-next i {
+    background-color: #cfa97b;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-button-next i:hover,.swiper-button-prev i:hover {
+    background-color: #fff;
+    color: #cfa97b;
+} 
 .milktri {
     background-image: url("https://lirp.cdn-website.com/2d8a0624/dms3rep/multi/opt/event-1-image-copy-def0739b-2880w.webp");
     width: 100%;
@@ -218,6 +235,39 @@ a {
 .gallery img {
     width: 33.33%;
 }
+/* .main-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}  
+.main-img img {
+    width: 33%;
+}  
+.img-click {
+    position: absolute;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.906);
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.img-click img {
+    width: 700px;   
+    height: 95%;
+    position: fixed;
+    z-index: 999;
+}
+.img-click span {
+    color: white;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    font-size: 25px;
+    font-family: sans-serif;
+    cursor: pointer;
+} */
 #display-btn {
     background-image: url("https://lirp.cdn-website.com/2d8a0624/dms3rep/multi/opt/mens+black+stone+copy-2880w.webp");
      width: 100%;
